@@ -1,0 +1,30 @@
+# Clés secrètes Firebase / Google
+serviceAccountKey.json
+*.pem
+*.key
+.env
+.env.*
+
+# Données sensibles / visages
+known_faces/
+raw_images/
+uploads/
+
+# Cache Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node si besoin
+node_modules/
+
+# Windows / Mac
+Thumbs.db
+.DS_Store
